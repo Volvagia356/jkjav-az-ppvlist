@@ -1,0 +1,16 @@
+This repository contains vaccine registration statistics scrapped from
+Malaysia's AstraZeneca vaccine registration campaign at 12PM on 2021-05-02.
+
+An API was used to provide vaccination location and availability data to the
+frontend. Although not shown to the user, there is a "balance" field, which is
+probably the amount of remaining slots for that location and date.
+
+Each JSON file is the data returned by that API, at the time stated in the
+filename. The log.py script was used to call the API and create those files.
+
+The convert.py script is used to transform the data in the JSON files into a
+CSV file for easier parsing in a spreadsheet program. The data.csv file is the
+output of that script.
+
+The data.ods spreadsheet contains the data from data.csv, along with some
+quickly made charts to visualise the data.
