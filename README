@@ -14,3 +14,15 @@ output of that script.
 
 The data.ods spreadsheet contains the data from data.csv, along with some
 quickly made charts to visualise the data.
+
+==========
+
+For the 2nd round of registration, scraped from 2021-05-23 to 2021-05-26, only
+the availability of a date/venue is known, not the actual amount.
+
+There are gaps in the data due to server load, and CloudFlare being
+introduced. Any CloudFlare error pages are still scraped into the *.json
+files.
+
+The scrape rate is manually adjusted over time to avoid unnecessary amounts of
+requests.
